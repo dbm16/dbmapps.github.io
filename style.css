@@ -1,0 +1,645 @@
+
+*
+{
+margin: 0;
+padding:0;
+
+}
+
+@font-face {
+  font-family: dor;
+  src: url(dor.ttf);
+}
+
+@font-face {
+  font-family: dori;
+  src: url(dori.ttf);
+}
+@font-face {
+  font-family: made;
+  src: url(made.ttf);
+}
+
+#nav-bar
+{
+position: sticky;
+top: 0;
+z-index: 10;
+
+}
+
+.navbar-brand img
+{
+height: 60px;
+padding-left: 8px;
+}
+.navbar-nav li
+{
+padding: 0 10px;
+}
+
+
+.navbar-nav li a
+{
+float:  right;
+text-align: center;
+font-family: dor;
+    font-size: 20px;
+
+}
+
+#nav-bar ul li a:hover
+{
+    color: #efefef!important;
+}
+
+.navbar
+{
+
+    background: #007bff
+}
+
+.navbar-toggler
+{
+    border: :none!important;
+    
+}
+.nav-link
+{
+    color:#fff!important;
+     font-size: 15;
+}
+
+
+#slider
+{
+    
+    width: 100%;
+     background: #efefef
+
+    
+}
+
+.carousel-caption
+{
+    top: 50%;
+    transform: translateY(-50%);
+    bottom: initial!important;
+    
+}
+.carousel-item img
+{
+    width: 100%;
+}
+.carousel-caption h5
+{
+    font-size: 42px;
+    color: #000;
+    
+}
+
+#about
+{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: #555;
+    font-family: dor;
+        text-align: right;
+
+}
+#about btn
+{
+    
+    margin top: 20px;
+    margin-bottom: 30px;
+    
+    
+}
+#about h2
+{
+    font-family: dori;
+}
+
+#about h3
+{
+    font-family: dori;
+    font-size: 21px;
+    color: #007bff;
+    text-align: center;
+    margin-top: 35px;
+}
+.about content
+{
+
+    padding-top: 20px;
+    font-family: dori;
+
+    
+}
+
+
+.skils-bar p
+{
+    margin-bottom: 6px;
+    font-weight: 600;
+    font-family: 'Raleway', sans-serif;
+            text-align: left;
+
+}
+
+.progress-bar
+{
+    border-radius: 16px;
+}
+
+.progress
+{
+border-radius: 16px!important;
+    margin-bottom: 20px;
+    
+}
+
+#services
+{
+    background: #007bff;
+    background-position: center;
+    color: #efefef !important;
+    background-attachment: fixed; 
+     padding-top: 50px;
+    padding-bottom: 50px;
+    
+}
+#services h1
+{
+    text-align: center;
+        color: #efefef !important;
+    padding-bottom: 50px;
+    font-family: 'Raleway', sans-serif;
+
+}
+#services h1::after
+{
+   content: '';
+    background: #efefef;
+    display: block;
+    height: 3px;
+    width: 170px;
+    margin: 20px auto 5px;
+    font-family: 'Raleway', sans-serif;
+}
+.services
+{
+     margin-top: 20px;
+    
+}
+
+.icon
+{
+    font-size: 40px;
+    margin: 20px auto;
+    padding: 20px;
+    height: 80px;
+    width: 80px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+}
+
+.services p
+{
+    font-size: 17px;
+    margin-top: 20px;
+    color: #fff;
+    font-family: dor;
+}
+
+.services h3
+{
+     font-size: 24px;
+    font-family: 'Raleway', sans-serif;
+    color: #fff
+}
+.services .col-md-3:hover
+{
+    
+    background: #3123fb;
+    cursor: pointer;
+    transition: 0.7s;
+    
+}
+
+#team
+{
+    
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: #555;
+}
+
+h1
+{
+    
+    text-align: center;
+    color: #555 !important;
+    padding-bottom: 51px;;
+}
+h1::after
+{
+    content: '';
+    background: #007bff;
+    display: block;
+    height: 3px;
+    width: 170px;
+    margin: 20px auto 5px;
+    
+}
+
+.profile-pic
+{
+    
+    margin-top: 25px;
+    
+}
+
+.profile-pic .img-box
+{
+    
+opacity: 1;
+    display: block;
+    position: relative;
+}
+
+.profile-pic .img-box img
+{
+    height: 100px;
+    width: 100px;
+  
+filter: grayscale(0);
+}
+.profile-pic h2
+{
+    font-size: 19px;
+    font font-weight: bold;
+    margin-top: 15px;
+    color: #007bff !important;
+
+}
+
+.profile-pic h3
+{
+    font-size: 22px;
+    font font-weight: bold;
+    margin-top: 15px;
+    color: #007bff !important;
+     font-family: 'Raleway', sans-serif;
+}
+.profile-pic p
+{
+    font-size: 16px;
+    margin-top: 15px;
+     font-family: dor;
+}
+#team .fa
+{
+    height: 25px;
+    width: 25px;
+ color: #007bff !important;
+    background: #fff;
+    padding: 4px;
+    border-radius: 50%;
+}
+
+.img-box ul
+{
+    padding: 37px 0;
+    position: absolute;
+    z-index: 2;
+    bottom: 0;
+    left: 70px;
+    transform: translateY(-50%);
+    opacity: 1;
+    
+}
+
+.img-box ul li
+{
+    padding: 5px;
+    display: inline-block;
+    
+}
+
+.img-box ul,.img-box ul li
+{
+    transition: 0.5;
+}
+
+#promo
+{
+    background:#e3544a;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    background-attachment: fixed;
+    text-align: center;
+    padding: 100px;
+font-family: dori;
+    font-size: 25px;
+    
+}
+
+
+#testimonials
+{
+    
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+}
+#testimonials h1
+{
+           font-family: dori;
+
+}
+
+#testimonials p
+{
+       font-family: dor;
+    font-size: 18px;
+
+}
+
+#testimonials .row
+{
+    margin-top: 30px;
+ 
+}
+
+.col-md-4
+{
+    margin: 40px auto;
+    
+}
+.profile
+{
+    padding: 70px 10px 10px;
+    background-color: #efefef;
+    
+}
+
+.user
+{
+    width: 135px;
+    height: 135px;
+    border-radius: 50%;
+}
+.profile img
+{
+    top: -60px;
+    position:absolute;
+    left: 65px;
+    border: 2px solid #007bff;
+    width: 120px;
+    height: 120px;
+}
+.profile h3
+{
+    font-size: 20px;
+    margin-top: 15px;
+    color: #007bff;
+    
+    
+
+}
+#testimonials span
+{
+    font-size: 12px;
+    color: #333;
+    
+    
+}
+#testimonials h3
+{
+    font-size: 17px;
+    
+    
+    
+}
+blockquote
+{
+    font-size: 18px;
+    color: black;
+    line-height: 30px;
+           font-family: dori;
+    text-align: center;
+    
+    
+}
+.blockquote::before
+{
+    content: '\93';
+    font-size: 50px;
+    color: #007bff;
+    position: relative;
+    line-height: 20px;
+    bottom: -15px;
+    right: 5px;
+    
+}
+
+.blockquote::after
+{
+    content: '\94';
+    font-size: 50px;
+    color: #007bff;
+    position: relative;
+    line-height: 20px;
+    bottom: -15px;
+    left: 5px;
+    
+}
+
+.profile:hover
+{
+    box-shadow: 0 0 15px 5px rgba (0,0,0,0.2);
+    cursor: pointer;
+    transition: 0.5s;
+    
+}
+
+
+.flip-card
+{
+    width: 350px;
+    height: 450px;
+    margin: auto;
+    border: 10px solid #efefef;
+    border-radius: 16px;
+
+}
+
+.flip-card-back
+{
+    background-color: #007bff;
+    color: #fff;
+    transform: rotateY(180deg);
+    z-index: 1;
+}
+
+.flip-card-back .back-header
+{
+    height: 45%;
+    text-align: center;
+    
+}
+
+.flip-card-back .back-header img
+{
+    width: 50%;
+    margin-top: 20px;
+          border-radius: 2.3%;
+
+}
+
+.flip-card-front img
+{
+    width: 100%;
+    height: 100%;
+      border-radius: 2.3%;
+
+}
+
+
+
+.flip-card-inner
+{
+    position: relative;
+    height: 100%;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    
+}
+
+.flip-card-back, .flip-card-front
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+}
+
+.flip-card:hover .flip-card-inner
+{
+    transform: rotateY(180deg);
+}
+
+
+.flip-card-back .back-footer
+{
+    height: 55%;
+    padding: 0 15px;
+    
+}
+
+.back-footer a
+{
+    text-decoration: none;
+    width: 120px;
+    display: inline-block;
+    text-align: center;
+    padding: 7px 5px;
+    border: 1px solid #fff;
+    color: #fff;
+    font-size: 14px;
+    margin-top: 10px;
+    margin-right: 27.5px;
+    transition: 0.5s;
+    font-family: dor;
+    
+}
+
+.back-footer a:hover
+{
+    background: #efefef;
+    border: 1px solid #efefef;
+    
+}
+.back-footer h2
+{
+    font-family: dori;
+    text-align: center;
+    font-size: 22px;
+    margin-top: 29px;
+}
+.back-footer p
+{
+    font-family: dori;
+    text-align: center;
+    font-size:  18px;
+    margin-top: 7px;
+}
+
+#cards
+{
+    margin-bottom: 100px;
+}
+#cards h1
+{
+   font-family: dori; 
+    
+}
+
+#contact
+{
+    background: #efefef;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: #777;
+}
+#contact h1
+{
+font-family: dori;
+}
+
+.contact-form
+{
+    padding: 15px;
+    
+}
+.form-control
+{
+     border-radius: 0 !important;
+    border: none !important;
+    
+}
+::placeholder
+{
+    color: #999 !important;
+}
+.follow
+{
+    background: #fff;
+    padding: 10px;
+    margin: 15px;
+    font-family: dor;
+
+}
+.contact-info .fa
+{
+    margin: 10px;
+    color: #007bff;
+}
+
+
+#footer
+{
+    background: #333;
+    color: #fff;
+    padding: 12px;
+    font-size: 18px;
+    font-family: dori;
+
+}
+.fa-heart-o
+{
+    margin: 3px;
+    color: red;
+}
